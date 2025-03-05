@@ -10,3 +10,276 @@ body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
+/* ================================ Common ============================ */
+a {
+    text-decoration: none;
+}
+
+.heading {
+    color: #0d1111;
+    font-weight: 700;
+}
+
+.heading.lv1 {
+    font-size: 6.2rem;
+    line-height: 1.16;
+}
+
+.heading.lv2 {
+    color: #0d1111;
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
+
+.btn {
+    padding: 0 16px;
+    min-width: 186px;
+    border-radius: 14px;
+    background: #1ebfc1;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.main-content {
+    margin: 0 auto;
+    width: 1170px;
+    max-width: 100%;
+}
+
+/* ============================ Header ================================= */
+.header {
+    position: sticky;
+    top: -44px;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.header .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px 0 8px;
+}
+
+.header .nav ul {
+    display: flex;
+}
+
+.header .nav a {
+    padding: 8px 19.5px;
+    color: #2f3a3b;
+    font-size: 1.6rem;
+}
+
+.header .active a,
+.header .nav a:hover {
+    color: #2f3a3b;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.header .action .sign-in {
+    color: #494949;
+    font-size: 1.6rem;
+}
+
+.header .action .sign-up {
+    display: inline-block;
+    margin-left: 24px;
+    text-align: center;
+    min-width: 108px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid currentColor;
+    color: #1ebfc1;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.header .action .sign-up:hover {
+    outline: 2px solid;
+}
+
+/* ============================== Hero ============================= */
+.hero {
+    padding-top: 42px;
+}
+
+.hero .body {
+    display: flex;
+    align-items: center;
+}
+
+.hero .body .info {
+    width: 51%;
+}
+
+.hero .info .text {
+    color: #767e7e;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.hero .info .heading {
+    margin-top: 18px;
+}
+
+.hero .info .desc {
+    max-width: 360px;
+    margin-top: 46px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    line-height: 1.78;
+}
+
+.hero .info .wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.hero .info .btn {
+    display: inline-block;
+    border: none;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: center;
+}
+
+.hero .info .play {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    width: 62px;
+    height: 62px;
+    border: none;
+    border-radius: 62px;
+    background: #fff;
+    box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.hero .info .play:hover {
+    opacity: 0.8;
+}
+
+.hero .body .image {
+    background-color: #e0f7f6;
+    position: relative;
+    width: 49%;
+    height: 631px;
+}
+
+.hero .image .img {
+    width: 100%;
+    height: 631px;
+    object-fit: cover;
+}
+
+.hero .image .courses {
+    position: absolute;
+    top: 149px;
+    left: -40px;
+    display: flex;
+    align-items: center;
+    padding: 18px 25px;
+    width: 157px;
+    border-radius: 18px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .courses .icons {
+    position: relative;
+}
+
+.hero .courses .icons .icon {
+    position: absolute;
+    left: 4px;
+    bottom: 8px;
+}
+
+.hero .courses .subtitle {
+    margin-left: 16px;
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.hero .schedules {
+    position: absolute;
+    bottom: 46px;
+    left: -65px;
+    width: 124px;
+    padding: 16px 25px 23px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .schedules .subtitle {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hero .schedules .icons {
+    margin-top: 16px;
+}
+
+.hero .schedules .icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.hero .schedules .icon:nth-child(2) {
+    margin-top: 12px;
+}
+.hero .schedules .icon:nth-child(3) {
+    margin-top: 12px;
+}
+
+.hero .schedules .icon:last-child {
+    margin-top: 16px;
+}
+
+.hero .student {
+    position: absolute;
+    right: 45px;
+    bottom: 41px;
+    padding: 17px 35px;
+    width: 207px;
+    border-radius: 24px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .student .subtitle {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .student .avatars {
+    display: flex;
+    margin-top: 8px;
+}
+
+.hero .student .avatar {
+    margin-left: -7px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+.hero .student .avatar:first-child {
+    margin-left: 0;
+}

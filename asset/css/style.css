@@ -414,6 +414,7 @@ a {
 
 .popular .container {
     display: flex;
+    padding-bottom: 124px;
     margin-top: 79px;
     gap: 47px;
 }
@@ -499,4 +500,35 @@ a {
     height: 6px;
     border-radius: 50%;
     background-color: var(--primary-color);
+}
+
+/* ========================== StatsSection ============================ */
+.statssection {
+    margin-top: 265px;
+}
+
+.statssection .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 862px;
+    width: calc(100% - 42px);
+}
+
+.statssection .item .number {
+    color: #0d1111;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 6.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.statssection .item .title {
+    margin-top: 11px;
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.5;
 }

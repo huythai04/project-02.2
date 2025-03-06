@@ -110,12 +110,13 @@ a {
     margin-left: 24px;
     text-align: center;
     min-width: 108px;
-    padding: 8px 16px;
+    padding: 0 16px;
     border-radius: 6px;
     border: 1px solid currentColor;
     color: var(--primary-color);
     font-size: 1.6rem;
     font-weight: 600;
+    line-height: 48px;
 }
 
 .header .action .sign-up:hover {
@@ -666,6 +667,7 @@ a {
 }
 
 .cta-section .cta-row .desc {
+    margin-top: 18px;
     color: #767e7e;
     font-size: 1.8rem;
     line-height: 1.5;

@@ -116,7 +116,7 @@ a {
     color: var(--primary-color);
     font-size: 1.6rem;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 47px;
 }
 
 .header .action .sign-up:hover {

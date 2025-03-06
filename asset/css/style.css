@@ -532,3 +532,116 @@ a {
     font-size: 1.8rem;
     line-height: 1.5;
 }
+
+/* =================================== UserReview =========================== */
+.user-review {
+    margin-top: 264px;
+}
+
+.user-review .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-review .body .info {
+    width: 36%;
+}
+
+.user-review .info .desc {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.user-review .info .text {
+    position: relative;
+    margin-left: 13px;
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.user-review .info .text strong {
+    color: #070707;
+    font-weight: 500;
+}
+
+.user-review .info .text::before {
+    position: absolute;
+    transform: translateY(50%);
+    left: -13px;
+    bottom: 50%;
+    display: inline-block;
+    content: "";
+    width: 8px;
+    height: 2px;
+    background-color: #070707;
+}
+
+.user-review .info .wrap-btn {
+    margin-top: 52px;
+    margin-left: -30px;
+}
+
+.user-review .info .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+.user-review .body .avatars {
+    position: relative;
+    width: 58%;
+    height: 481px;
+}
+
+.user-review .avatars .avatar {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+}
+
+.user-review .avatars .avatar:first-child {
+    width: 92px;
+    height: 92px;
+    top: 0;
+    left: 144px;
+}
+
+.user-review .avatars .avatar:nth-child(2) {
+    width: 110px;
+    height: 110px;
+    top: 19px;
+    right: 0;
+}
+
+.user-review .avatars .avatar:nth-child(3) {
+    width: 235px;
+    height: 235px;
+    top: 107px;
+    right: 171px;
+}
+
+.user-review .avatars .avatar:nth-child(4) {
+    left: 0;
+    bottom: 145px;
+}
+
+.user-review .avatars .avatar:nth-child(5) {
+    left: 212px;
+    bottom: 0;
+}
+
+.user-review .avatars .avatar:last-child {
+    right: 32px;
+    bottom: 29px;
+}

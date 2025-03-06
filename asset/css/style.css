@@ -52,6 +52,7 @@ a {
     background: var(--primary-color);
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
     cursor: pointer;
+    line-height: 68px;
 }
 
 .btn:hover {
@@ -165,7 +166,6 @@ a {
     color: #fff;
     font-size: 1.8rem;
     font-weight: 600;
-    line-height: 68px;
     text-align: center;
 }
 
@@ -644,4 +644,83 @@ a {
 .user-review .avatars .avatar:last-child {
     right: 32px;
     bottom: 29px;
+}
+
+/* =================================== call for action ===================================== */
+.cta-section {
+    margin-top: 130px;
+    padding: 76px 0 88px;
+    background-color: #def6f5;
+}
+
+.cta-section .cta-row {
+    display: flex;
+    align-items: center;
+}
+
+.cta-section .cta-row .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.cta-section .cta-row .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cta-section .cta-row .btn {
+    margin-left: auto;
+    margin-right: 154px;
+    color: #fff;
+    border: none;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* ================================== Footer ================================== */
+.footer {
+    padding: 131px 0 50px;
+}
+
+.footer .row-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .column-footer .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.column-footer .lists a {
+    display: block;
+    margin-top: 18px;
+    color: #535353;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.column-footer .lists a:first-child {
+    margin-top: 25px;
+}
+
+.column-footer .lists:last-child a {
+    display: flex;
+}
+
+.column-footer .lists span {
+    margin-left: 9px;
+}
+
+.footer .desc-footer {
+    margin-top: 80px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    text-align: center;
 }
